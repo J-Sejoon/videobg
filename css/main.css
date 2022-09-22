@@ -160,9 +160,10 @@ main { }
   font-size: 14px;
   color: #fff;
   position: absolute;
-  left: 44%;  
+  left: 50% ;
+  transform: translateX(-50%);
   bottom: 0;
-  padding-bottom: 50px;
+  padding-bottom: 110px;
   width: 100px;
   font-weight: 600;
   text-align: center;
@@ -176,10 +177,10 @@ main { }
 }
 @keyframes scrollDown{
   0%{
-    transform: translateY(-10px);
+    margin: -10px 0;
   }
   100%{
-    
+    margin: 0px;
   }
 }
 
